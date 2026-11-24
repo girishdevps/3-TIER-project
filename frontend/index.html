@@ -1,0 +1,57 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere | Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>ShopSphere</h1>
+        <div class="nav-right">
+            <span>Discover products</span>
+            <button id="cart-toggle">Cart (<span id="cart-count">0</span>)</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <p class="tag">SHOP SMART. LIVE BETTER.</p>
+            <h2>Find your next<br>favorite thing.</h2>
+            <p>Discover everyday essentials and modern favorites.</p>
+            <a href="#products" class="shop-btn">Explore products</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="products">
+            <div class="section-heading">
+                <div>
+                    <h2>Featured products</h2>
+                    <p>Explore our collection</p>
+                </div>
+            </div>
+
+            <div id="product-grid" class="product-grid"></div>
+        </section>
+
+        <section id="cart-section" class="cart-section">
+            <h2>Your shopping cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-footer">
+                <h3>Total: ₹<span id="cart-total">0</span></h3>
+                <button id="checkout-btn">Place order</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ShopSphere &copy; 2026 | Demo E-commerce Application</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
